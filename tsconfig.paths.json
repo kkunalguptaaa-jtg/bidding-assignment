@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "@assets/*": ["./assets/*"],
+            "@styles/*": ["./styles/*"],
+            "@components/*": ["./components/*"],
+            "@components": ["./components"],
+            "@containers/*": ["./containers/*"],
+            "@containers": ["./containers"],
+            "@store/*": ["./store/*"],
+            "@store": ["./store"], //so that we can use index.js direclty in constant without using @constants/index
+            "@constants/*": ["./constants/*"],
+            "@constants": ["./constants"],
+            "@services/*": ["./services/*"],
+            "@services": ["./services"],
+            "@types/*": ["./types/*"],
+            "@types": ["./types"],
+            "@hooks/*": ["./hooks/*"],
+            "@hooks": ["./hooks"],
+            "@helpers/*": ["./helpers/*"],
+            "@helpers": ["./helpers"],
+        }
+    }
+}
